@@ -23,6 +23,10 @@
     }
     #card{
         top: 50rem;
+        font-size: 2rem;
+    }
+    #card h2{
+        font-style: 1.5rem;
     }
     footer{
         position: relative;
@@ -108,5 +112,22 @@
         width: 15%;
         top: 66%;
         left: 50%;
+    }
+    #card{
+        top: 50rem;
+    }
+}
+@media(min-width: 2560px){
+    #text{
+        font-size: 3rem;
+        top: 40rem;
+    }
+    #text img{
+        width: 15%;
+        top: 66%;
+        left: 50%;
+    }
+    #card{
+        top: 80rem;
     }
 }
